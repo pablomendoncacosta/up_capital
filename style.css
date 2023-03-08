@@ -29,14 +29,16 @@ header > .logo{
 }
 header > nav{
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     text-decoration: none;
 }
 header >nav>a{
     text-decoration: none;  
     background-color: var(--cor-3);
+    padding: 05px;
     border-radius: 20px 0px 20px ;
     color: white;
+ 
 }
 header > nav >a:hover{
     background-color: var(--cor-5);
@@ -117,7 +119,6 @@ aside >ul > li::before{
     font-size: 1.8em;
 }
 .Servicos > h2{
-    color: white;
 }
 .Servicos{
     display: flex;
