@@ -118,6 +118,7 @@ aside >ul > li::before{
     font-size: 1.8em;
 }
 .Servicos > h2{
+    color: white;
 }
 .Servicos{
     display: flex;
