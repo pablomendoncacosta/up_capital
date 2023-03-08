@@ -35,7 +35,6 @@ header > nav{
 header >nav>a{
     text-decoration: none;  
     background-color: var(--cor-3);
-    padding: 05px;
     border-radius: 20px 0px 20px ;
     color: white;
 }
