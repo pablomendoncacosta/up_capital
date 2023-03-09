@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Up-Capital Proposta de negócios para sua empresa</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -16,13 +17,16 @@
             </picture>
         </div>
         <nav>
-            <a href="#">Quem somos</a>
-            <a href="#">Serviços</a>
-            <a href="#">Contato</a>
+            <a href="#quem somos">Quem somos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="https://api.whatsapp.com/send?phone=5565996736673" target="_blank">Contato</a>
         </nav>
     </header>
     <main>
-      <h1>Proposta <span>de Negócios Para sua Empresa</span> </h1> 
+      <div class="inicial">
+          <h1>Proposta <span>de Negócios Para sua Empresa</span> </h1>
+          <a href="#">Conheça meu Ebook ✔</a>
+      </div>
     <article class="primeiro">
        <h1>Nossa Missão</h1>
        <p> Ajudar pessoas a atingir seus objetivos mais próximos, reais e seguros através da organização financeira e um bom planejamento empresarial.</p>
@@ -39,13 +43,13 @@
             <li>Reponsabilidade</li>
         </ul>
        </aside>
-    </article>
-    <article class="segundo">
+    </article><!--primeira-->
+    <article id="servicos" class="segundo">
         <h1>Nossos Serviços</h1>
         <div class="Servicos">
             <picture>
                 <source media="(max-width: 720px)" srcset="imagens/diaginostocp-.png" type="image/png">
-                <img src="imagens/diaginostocp.png" alt="">
+                <img src="imagens/diaginostocp-.png" alt="">
         </picture>
             <h2>DIAGNÓSTICO & <br>PLANEJAMENTO FINANCEIRO</h2>
         </div>
@@ -62,10 +66,10 @@
                 <Li>lucros</Li>
                 <li>investimento</li>
             </ul>
-            <div class="Servicos">
+            <div class="Servicos" id="img">
                 <picture>
                     <source media="(max-width: 720px)" srcset="imagens/organização-.png" type="image/png">
-                    <img src="imagens/organização.png" alt="">
+                    <img src="imagens/organização-.png" alt="">
             </picture>
                 <h2>PLANEJAMENTO EMPRESARIAL<br> E PROJEÇÕES </h2>
             </div>
@@ -79,11 +83,89 @@
                     <li>Estratégia de vendas</li>
                    
                 </ul>
-    </article>
-    </main>
+                <div class="Servicos" id="img">
+                    <picture>
+                        <source media="(max-width: 720px)" srcset="imagens/organização-.png" type="image/png">
+                        <img src="imagens/organização-.png" alt="">
+                </picture>
+                    <h2>GESTÃO DE PESSOAS</h2>
+                </div>
+                    <ul type="circle">
+                        <li>Liderança</li>
+                        <li>Gestão de equipe</li>
+                        <li>Gerenciamento de Riscos Ocupacionais</li>
+                        <li>Avaliação de desempenho</li>
+                        <li>Rotinas operacionais</li>
+                        <li>Treinamentos</li>
+                        <li>Motivação</li>
+                    </ul>
+                    <div class="serve">
+                        <h2>Para quem serve esses serviços?</h2>
+                        <p>Empresas que não tem um plano estruturado, que não possui indicadores e ferramentas que facilitam á analise de gestão e também para aquelas que possuem e querem melhorar sua performance. Ou seja, se você é empreendedor nós podemos lhe ajudar.</p>
+                    </div>
+        </article>  <!--segunda--> 
+        <article class="terceira">
+            <h1>Ebook</h1>
+            <a href="#" target="_blank">
+                <picture>
+                    <source media="(max-width: 720px)" srcset="imagens/ebook-.jpg" type="image/jpg">
+                    <img src="imagens/ebook.jpg" alt="Ebook">
+                </picture>
+            </a><br>
+            <a href="" download="">Baixar Ebook</a>
+            <div>
+                <p>Escrevi esse e-book com muito carinho para distribuir gratuitamente para pessoas que tenham vontade de se organizar financeiramente e não tiveram nenhum acesso as informações necessárias de como lidar com seu suado dinheiro.
+
+                    Nele eu falo como ajustar, qualificar e planejar sua vida financeira. Para adquirir clique na imagem acima ou me envie uma mensagem no whatsapp  dizendo " " eu quero ler o aquaplan "  que lhe envio uma cópia.
+                   
+                   @up_capital
+                   
+                   Finanças Pessoais
+                   
+                   </p>
+            </div>
+        </article>  <!--terceira-->
+        <article id="quem somos" class="quarta">
+            <hr>
+            <h1>Quem somos</h1>
+            <div class="doraci">
+                <picture class="img">
+                    <source media="(max-width: 720px)" srcset="imagens/doraci-.png" type="image/png">
+                    <img src="imagens/doraci.png" alt="">
+                </picture>
+              
+                <div class="somos">
+                    <p>Uma equipe especializada em <br>organização empresarial. <br>Temos como principal<br> atividade oferecer<br> ferramentas que proporcione<br> segurança para os<br> empreendedores.
+                        Nossa equipe<br> conta com <br>profissionais das áreas de administração,<br> do direito,<br> contabilidade e psicologia.
+                        Tudo isso para<br> que você e <br>sua empresa tenha mais tranquilidade<br> e eficiência <br>em suas operações.</p>
+                </div><!--somos-->
+            </div><!--doraci-->
+              <h3>Doraci Filho</h3> 
+              <div class="formacao">
+                <p>°Formado em administração de empresas, pós graduado em gestão e finanças, MBA em consultoria empresarial. Atua à 16 anos no mercado de trabalho onde adquiriu muitas experiências na esfera comercial. </p><br>
+                <p>°Foi repositor, vendedor e representante comercial. Esteve por sete anos como sócio proprietário e CEO em uma empresa de auto peças e  prestação de serviços em veículos automotores, ali gerenciava os recursos e as operações da empresa </p>
+                <br>
+                <p>°Em 2021 criou a UP CAPITAL e atua como consultor, ajudando pessoas e pequenas empresas com organização empresarial e planejamentos financeiros.</p>
+            </div>
+        </article> <!--quarta-->
+    </main> 
 </main>
     <footer>
-        <H1>RODAPE</H1>
+    <div class="rodape">
+        <div class="end">
+            <h4>Endereço:</h4>
+            <ADdress>Mirrasol D'oeste<br>Rua 28 de outubro - centro</ADdress>
+        </div><!--end-->
+    <div class="what">
+        <h4>Contato:</h4>
+       <img src="imagens/zap-zap.png" alt="">
+       <img src="imagens/instagram.png" alt="">
+       <p>(65)99673-6673</p>
+    </div><!--what-->
+    <div class="link">
+        <a href="#">☞ CLick Aqui! E fale comigo</a>
+    </div>
+    </div><!--rodape-->
     </footer>
 </body>
 </html>

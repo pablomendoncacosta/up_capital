@@ -7,7 +7,7 @@
 :root{
     --libra:'Libre Baskerville';
     --cor-1:#a2a6f29e;
-    --cor-2:#559898;
+    --cor-2:#038C5A;
     --cor-3:#04BF7B;
     --cor-4:#07D977;
     --cor-5:#07D977;
@@ -50,14 +50,27 @@ header > nav >a:hover{
 main{
     font-size:var(--libra);
     font-weight:bold;
-    text-align: center;
-
+    text-align: center;  
 }
-main > h1{
+.inicial{
+    margin-bottom: 10px;
+}
+.inicial > h1{
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
+} 
+.inicial > a{
+    text-decoration: none;
+    color: white;
+    background-color:#5ca4f2;
+    border-radius: 10px;
+    padding: 2px;   
 }
+.inicial > a:hover{
+    background-color: var(--cor-4);
+}
+
 .primeiro{
     font-size: var(--libra);
     font-weight: bold;
@@ -83,6 +96,7 @@ span{
 }
 
 
+
 aside{
     font-size: var(--libra);
     font-weight: bold;
@@ -103,12 +117,12 @@ aside >ul > li::before{
 }
 
 
+
 .segundo{
-    background-color: rgba(255, 255, 255, 0.149);
-    background-size: 100%;
     background-repeat: no-repeat;
     font-family: var(--libra);
     font-weight: bold;
+    margin-bottom: 20px;
 }
 .segundo > h1{
     color: var(--cor-2);
@@ -119,10 +133,12 @@ aside >ul > li::before{
     font-size: 1.8em;
 }
 .Servicos > h2{
+    color: white;
 }
 .Servicos{
     display: flex;
     justify-content: center;
+  
 }
 .Servicos img{
     margin: auto;
@@ -130,7 +146,7 @@ aside >ul > li::before{
 }
 .Servicos h2{
     margin-top: 50px;
-    font-size: 1.0em
+    font-size: 1.2em
 }
 
 .segundo > ul {
@@ -140,4 +156,139 @@ aside >ul > li::before{
 }
 .segundo >ul > li::before{
     content: '°';
+}
+#img{
+margin-top: 40px;
+}
+
+
+.serve{
+    font-size: var(--libra);
+    font-weight: bold;
+    margin-top: 20px;
+}
+.serve >h2{
+    color: white;
+    font-size: 1.5em
+}
+.serve > p{
+    text-align: justify;
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+    text-indent: 10px;
+}
+
+.terceira{
+    background-image:linear-gradient(to top,#54bfbf8f,#04BF7B8f,#7D97779f);
+    background-repeat: no-repeat;
+    font-family: var(--libra);
+    font-weight: bold;
+}
+.terceira > h1{
+    color: var(--cor-2);
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-align: left;
+    font-size: 1.8em;
+}
+.terceira  p{
+    text-align: justify;
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+}
+.terceira a {
+    text-decoration: none;
+}
+
+
+.quarta{
+    background-image:linear-gradient(to top,#54bfbf8f,#04BF7B8f,#7D97779f);
+    background-repeat: no-repeat;
+    font-family: var(--libra);
+    font-weight: bold;
+}
+.quarta > h1{
+    color: var(--cor-2);
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    text-align: left;
+    font-size: 1.8em;
+}
+.quarta > h3{
+    margin-right: 250px;
+    background-image:linear-gradient(to right,var(--cor-2),transparent) ;
+}
+
+.doraci{
+    display: flex;
+}
+.doraci >  .img{
+    display: block;
+    margin: auto;
+    margin-right: 0px;
+}
+.doraci  p{
+    min-width:50px;
+    font-size: 0.9em;
+    text-align: justify;
+    text-align: center;
+    margin: auto;
+}
+
+.somos{
+    background-color: var(--cor-2);
+    margin: auto;
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-left: 0px;
+    min-width: 50px;
+    max-width: 350px;
+}
+
+
+.formacao{
+    background-color: white;
+    font-size: var(--libra);
+    font-weight: bold;
+}
+.formacao > p{
+    text-align: justify;
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+}
+
+.rodape{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.end{
+    margin-right: 30px;
+    
+}
+.end > h4{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+.what >h4{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+.what{
+    margin-bottom: 5px;
+}
+.link >a {
+    color: white;
+    background-color: var(--cor-3);
+    padding: 6px;
+    font-size: 0.8em;
+    border-radius: 10px;
+    text-decoration: none;
 }
