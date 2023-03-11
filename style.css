@@ -38,10 +38,10 @@ header{
     text-align: justify;
     text-align: center;
     width: 250px;
-    height: 95px;  
+    height: 80px;  
     padding: 5px; 
     margin-bottom: 10px;
-
+    font-size: 0.8em;
 }
 #serviço h1{
     margin-bottom: 10px;
@@ -64,7 +64,7 @@ header{
 }
 #ebook>h1{
     color: white;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 
