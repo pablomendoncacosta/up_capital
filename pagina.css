@@ -277,12 +277,12 @@ margin-top: 40px;
 .end > h4{
     color: white;
     margin-bottom: 10px;
-    font-size: 1.3em;
+    font-size: 1.0em;
 }
 .what >h4{
     color: white;
     margin-bottom: 10px;
-    font-size: 1.3em;
+    font-size: 1.0em;
 }
 .what{
     margin-bottom: 5px;
@@ -290,7 +290,7 @@ margin-top: 40px;
 .link >a {
     color: white;
     background-color: var(--cor-3);
-    padding: 6px;
+    padding: 5px;
     font-size:0.7em;
     border-radius: 10px;
     text-decoration: none;
