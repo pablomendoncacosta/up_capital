@@ -266,7 +266,7 @@ margin-top: 40px;
 }
 
 .rodape{
-    margin-top: 20px;
+    padding: 10px;
     display: flex;
     justify-content: center;
 }
@@ -291,7 +291,7 @@ margin-top: 40px;
     color: white;
     background-color: var(--cor-3);
     padding: 6px;
-    font-size: 0.8em;
+    font-size:0.7em;
     border-radius: 10px;
     text-decoration: none;
 }
